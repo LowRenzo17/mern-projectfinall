@@ -1,13 +1,13 @@
 import { useState } from 'react';
-import { AuthProvider, useAuth } from './contexts/AuthContext';
-import { ThemeProvider } from './contexts/ThemeContext';
-import LoginForm from './components/auth/LoginForm';
-import RegisterForm from './components/auth/RegisterForm';
-import Header from './components/layout/Header';
-import PatientDashboard from './components/patient/PatientDashboard';
-import DoctorDashboard from './components/doctor/DoctorDashboard';
-import AdminDashboard from './components/admin/AdminDashboard';
-import NotificationPanel from './components/notifications/NotificationPanel';
+import { AuthProvider, useAuth } from '../contexts/AuthContext';
+import { ThemeProvider } from '../contexts/ThemeContext';
+import LoginForm from '../components/auth/LoginForm';
+import RegisterForm from '../components/auth/RegisterForm';
+import Header from '../components/layout/Header';
+import PatientDashboard from '../components/patient/PatientDashboard';
+import DoctorDashboard from '../components/doctor/DoctorDashboard';
+import AdminDashboard from '../components/admin/AdminDashboard';
+import NotificationPanel from '../components/notifications/NotificationPanel';
 import { Bell } from 'lucide-react';
 
 function AppContent() {

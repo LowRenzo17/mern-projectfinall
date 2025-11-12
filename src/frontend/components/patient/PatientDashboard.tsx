@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Calendar, Clock, User, FileText, Video, Plus } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
-import { supabase } from '../../lib/supabase';
+import { supabase } from '../../../backend/services/supabase';
 import BookAppointmentModal from './BookAppointmentModal';
 
 interface Appointment {

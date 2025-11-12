@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Users, UserCheck, Calendar, CheckCircle, XCircle, Award } from 'lucide-react';
-import { supabase } from '../../lib/supabase';
+import { supabase } from '../../../backend/services/supabase';
 
 interface DoctorVerification {
   id: string;

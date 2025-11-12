@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Calendar, Clock, User, CheckCircle, XCircle, FileText } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
-import { supabase } from '../../../backend/services/supabase';
+import { supabase } from '../../lib/supabase';
 import DoctorProfileSetup from './DoctorProfileSetup';
 
 interface DoctorProfile {

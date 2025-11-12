@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Stethoscope, Award, BookOpen, DollarSign } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
-import { supabase } from '../../../backend/services/supabase';
+import { supabase } from '../../lib/supabase';
 
 interface DoctorProfileSetupProps {
   onComplete: () => void;

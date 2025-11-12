@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { X, Search, Calendar, Clock, User } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
-import { supabase } from '../../../backend/services/supabase';
+import { supabase } from '../../lib/supabase';
 
 interface Doctor {
   id: string;
